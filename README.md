@@ -1,13 +1,19 @@
 # checkSHA256Sum
-Simple Golang program to compare the SHA provided to the file downloaded
+Simple Golang program to compare the SHA value provided to a file downloaded.
+This will make sure the file was not changed or altered.
 
-### Enter the Check Sum
-Enter the check sum provided by the website
+
+### Windows
+Double click the exe file and provide the SHA value and then the path of the file location
+
 
 Example: 0d709d8ff818def7de15b0c9cd09b01d8fc98fb6b7d6926960a38be9ce47e871
-
-### Enter the Path / Directory of the file
-Enter the file that needs to be compared to the Check Sum. This will make sure the file was not changed or altered.
-
 Example: C:\Users\UserName\Downloads\FileName.Ext
 
+
+### Linux
+Open a terminal and run the file with ./checkSum then provide the SHA value and then the path of the file location
+
+
+Example: 0d709d8ff818def7de15b0c9cd09b01d8fc98fb6b7d6926960a38be9ce47e871
+Example: /home/Downloads/fileName.ext
