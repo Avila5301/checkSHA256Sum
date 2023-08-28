@@ -49,4 +49,8 @@ func main() {
 	} else {
 		fmt.Println("SHA256 sums do not match. The file may be corrupted or tampered with.")
 	}
+
+	// Wait for a key press before exiting
+	fmt.Print("Press Enter to exit...")
+	fmt.Scanln()
 }
